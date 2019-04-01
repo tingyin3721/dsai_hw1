@@ -19,12 +19,12 @@ Jupyter Notebook https://nbviewer.jupyter.org/gist/tingyin3721/607d713b9c78e5ee0
  
 ## 4. 預測方法
 使用 Ensemble Linear Regression進行訓練後預測
- - 1st Regression
+ **1st Regression**
  - Input : 前60 天的每日尖峰負載
  - Predict : 接下來 7 天的每日尖峰負載
  - Training Data : 755
  - Method : sklearn linear regression
- - 2nd Regression
+ **2nd Regression**
  - Input : 前兩年所有連假的尖峰負載預測結果
  - Predict : 利用第一次預測結果和真正數值去學習連假的fine-tune regression
  - Training Data : 126
